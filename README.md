@@ -36,12 +36,12 @@ I like to watch historical videos of the past as well.
 - [x] United Kingdom
 - [x] India
 - [x] Bahamas
-- [] Singapore
+- [ ] Singapore
 - [x] Jamaica
-- [] France
-- [] Sri Lanka
-- [] Maldives
-- [] Canada
+- [ ] France
+- [ ] Sri Lanka
+- [ ] Maldives
+- [ ] Canada
 
 ### Websites I find interesting
 [Youtube](https://www.youtube.com/) - I have always enjoyed watching videos on youtube and I find it very interesting of how many vidoes there are. It will never get boring to watch a wide variety of windows that may be either funny or informational.
