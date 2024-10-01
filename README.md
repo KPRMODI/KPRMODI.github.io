@@ -44,8 +44,11 @@ I like to watch historical videos of the past as well.
 - [ ] Canada
 
 ### Websites I find interesting
-[Youtube](https://www.youtube.com/) - I have always enjoyed watching videos on youtube and I find it very interesting of how many vidoes there are. It will never get boring to watch a wide variety of windows that may be either funny or informational.
+[Youtube](https://www.youtube.com/) 
+- I have always enjoyed watching videos on youtube and I find it very interesting of how many vidoes there are. It will never get boring to watch a wide variety of windows that may be either funny or informational.
 
-[Chess](https://www.chess.com/home) - A thousand year old game now online allows millions of people to play and socialize online. I like to play online and hone my chess skills.
+[Chess](https://www.chess.com/home) 
+- A thousand year old game now online allows millions of people to play and socialize online. I like to play online and hone my chess skills.
 
-[GeoGuessr](https://www.geoguessr.com/) - If you were stranded in the middle of nowhere how would you tell where you were? By learning and playing GeoGuessr. This website puts you in a random position on Earth and you have to guess where you are, this is a very fun and interesting website.
+[GeoGuessr](https://www.geoguessr.com/) 
+- If you were stranded in the middle of nowhere how would you tell where you were? By learning and playing GeoGuessr. This website puts you in a random position on Earth and you have to guess where you are, this is a very fun and interesting website.
