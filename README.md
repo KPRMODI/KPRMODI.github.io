@@ -52,3 +52,46 @@ I like to watch historical videos of the past as well.
 
 [GeoGuessr](https://www.geoguessr.com/) 
 - If you were stranded in the middle of nowhere how would you tell where you were? By learning and playing GeoGuessr. This website puts you in a random position on Earth and you have to guess where you are, this is a very fun and interesting website.
+
+## My Mermaid Charts
+
+### Accurate Chess Flowchart
+
+```mermaid
+flowchart TD;
+    a([Start])-->b([Gambit]);
+    style a fill:blue
+    a-->c([Opening]);
+    b-->d([Tricked]);
+    d-->k;
+    style d fill:yellow
+    b-->a;
+    b--> e([Not Tricked]);
+    e--> f([Normal Game]);
+    c-->f;
+    f-->g([Midgame]);
+    g-->z([Closed Position]);
+    f-->h([Blunder]);
+    style h fill:red
+    h-->a;
+    g-->i([Endgame]);
+    i-->j([Stalemate]);
+    style j fill:grey
+    j-->a
+    i-->k([Victory])
+style k fill:green
+    k-->a
+    z-->j;
+    z-->i;
+
+```
+### My Brain Power 
+
+```mermaid
+pie title My brain power used throughout the day
+    "School" : 40
+    "Games" : 20
+    "Eating" : 5
+    "Exercise": 10
+    "Sleeping" : 25
+```
