@@ -56,7 +56,6 @@ I like to watch historical videos of the past as well.
 ## My Mermaid Charts
 
 ### Accurate Chess Flowchart
-
 ```mermaid
 flowchart TD;
     a([Start])-->b([Gambit]);
@@ -83,15 +82,16 @@ style k fill:green
     k-->a
     z-->j;
     z-->i;
-
 ```
-### My Brain Power 
-
+### My Life Timeline
 ```mermaid
-pie title My brain power used throughout the day
-    "School" : 40
-    "Games" : 20
-    "Eating" : 5
-    "Exercise": 10
-    "Sleeping" : 25
+timeline
+    title My Life Timeline
+2007: When I was born
+2013: Learning how to speak: Got my first computer 
+2015: Went to elementary school: Started to learn more about technology and the internet: Learned to ride a bike
+2019: Started Middle School: Covid Started
+2020 - 2021: Virtual School: Started going to in person school late 2021 and made friends: Started playing chess: Developed as a person
+2022: Started High School: Learned Python and other languages
+2024: Got my learners permit and driving: Started Wake Tech college classes
 ```
