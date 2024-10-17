@@ -26,9 +26,9 @@ style playagain fill:blue
 style enter fill: yellow
 style high fill: yellow
 style low fill:yellow
-style check fill: darkblue
-style compute fill: darkblue
-style generate fill: darkblue
+style check fill: lightblue
+style compute fill: lightblue
+style generate fill: lightblue
 ```
 
 ### Documentation
