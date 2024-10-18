@@ -1,12 +1,23 @@
 ```mermaid
 erDiagram
+
 PRODUCT {
 }
+
+
 CUSTOMER {
-    nchar(5) CustomerID PK
+    int CustomerID PK
+    str Name
+    str Email
+    str a
 }
+
 SALE {
 }
+
+
+
+
 INVENTORY {
 }
 ```
