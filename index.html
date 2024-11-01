@@ -2,67 +2,85 @@
 <html>
   <head>
     <title>My Personal Introduction</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+
     <section>
-    <header><h1><strong>Karan Modi, Wake Early College Student</h1></strong></h1></header>
-    <p><strong>kpmodi@my.waketech.edu</strong></p>
-    <img src="chess.png">
+      <div class="container">
+          <img src="chess.png" class="image"> 
+            <header>
+              <h1>
+                <strong class ="name">
+                  Karan Modi, Wake Early College Student
+                </strong>
+              </h1>
+            </header>
+        </div>
     <br>
-    <a href="interests.html"><h3>My Interests</h3> </a>
-    <a href="contact.html"><h3>Contact Me!</h3> </a>
-
+    <nav>
+      <ul class = "navbar">
+        <li class="navlink"> <a href="index.html"><h3>Home </h3> </a> </li>
+        <li class="navlink"> <a href="interests.html"><h3>My Interests</h3> </a> </li>
+        <li class="navlink"> <a href="contact.html"><h3>Contact Me!</h3> </a> </li>
+      </ul>
+    </nav>
     </section>
+
+
+
+  <div class="row"> 
+
+  <div class="column left">
+    <h1>My Skills</h1>
+      <h3>Technical Skills</h3>
+      <ol>
+        <li>Python Programming</li>
+        <li> Windows Command Prompt</li>
+        <li> Basic Computing and Hardware knowledge</li>
+        <li>Excel </li>
+        <li> Network Administration</li>
+        <li> Virtual Machines</li>
+      </ol>
+
+    <h3>Non Technical Skills</h3>
+    <ol>
+      <li>Teamwork</li>
+      <li>Collaboration</li>
+      <li> Leadership</li>
+      <li> Communications </li>
+      <li> Innovative </li>
+    </ol>
+  </div>
+  <div class="column middle">
     <h1>About Me</h1>
-    <p> Hello, my name is Karan Modi, and I am currently a student at <em>Wake Early College of Information and Biotechnologies</em>. I am a 11th grade and I also take classes at <em>Wake Tech Community College</em>. In <em>Wake Early College</em>, I take <em>AP English</em> and <em>Chemistry Honors</em>. At <em>Wake Tech Community College</em>, I attend <em>NOS110</em> and <em>CTI110</em> about computers and programming. I am majoring an education in <strong>Computer Programming</strong>.</p>
-  
-    <p>I have always been interested in computers as a kid. I was <strong>very</strong> interested in them to the point were I got my first computer at 7 years old and would explore the internet all the time. 1 year later I would attend a coding club at my elementary school and learn even more. Years later I would apply to this college and would continue my jouney even further.</p>
-  </section>
+      <p> Hello, my name is Karan Modi, and I am currently a student at <em>Wake Early College of Information and Biotechnologies</em>. I am a 11th grade and I also take classes at <em>Wake Tech Community College</em>. In <em>Wake Early College</em>, I take <em>AP English</em> and <em>Chemistry Honors</em>. At <em>Wake Tech Community College</em>, I attend <em>NOS110</em> and <em>CTI110</em> about computers and programming. I am majoring an education in <strong>Computer Programming</strong>.</p>
 
-    <p>Now attending this Early College, I have learned a lot about Programming and about other subjects such as Network Administration and basic computing. I've gained several certifications and skills that have enhanced my thinking skills. In my free time I like to watch education videos and play video games to learn about and use computers. </p>
-  </section>
+      <p>I have always been interested in computers as a kid. I was <strong>very</strong> interested in them to the point were I got my first computer at 7 years old and would explore the internet all the time. 1 year later I would attend a coding club at my elementary school and learn even more. Years later I would apply to this college and would continue my jouney even further.</p>
 
-<section>
-  <h1>My Skills</h1>
-  <h3>Technical Skills</h3>
-  <ol>
-    <li>Python Programming</li>
-    <li> Windows Command Prompt</li>
-    <li> Basic Computing and Hardware knowledge</li>
-    <li>Excel </li>
-    <li> Network Administration</li>
-    <li> Virtual Machines</li>
-  </ol>
-
-  <h3>Non Technical Skills</h3>
-  <ol>
-    <li>Teamwork</li>
-    <li>Collaboration</li>
-    <li> Leadership</li>
-    <li> Communications </li>
-    <li> Innovative </li>
-  </ol>
-</section>
-  
-
-<section>
-  <h1>My Projects</h1>
-  <ul>
-    <li> Python Flask Project</li>
-    <p> I made a website combining both Python code and HTML code while struggling with installing flask. It was a hard time.</p>
-    <li>
-      Network Ethernet Cable Cramping </li>
-      <p> I cramped Ethernet Cables in Networking in order to make cables that actually worked out of CAT6 copper cable.</p>
+      <p>Now attending this Early College, I have learned a lot about Programming and about other subjects such as Network Administration and basic computing. I've gained several certifications and skills that have enhanced my thinking skills. In my free time I like to watch education videos and play video games to learn about and use computers. </p>
+  </div>
+  <div class="column right">
+    <h1>My Projects</h1>
+    <ul>
+      <li> Python Flask Project</li>
+        <p> I made a website combining both Python code and HTML code while struggling with installing flask. It was a hard time.</p>
+      <li> Network Ethernet Cable Cramping </li>
+        <p> I cramped Ethernet Cables in Networking in order to make cables that actually worked out of CAT6 copper cable.</p>
       <li> HTML Projects</li>
-      <p> Throughout my life I have made several HTML pages in the 8th grade, 9th grade, and now in my Junior year. I have a lot of experience and it is fun to make web pages for causes.</p>
+        <p> Throughout my life I have made several HTML pages in the 8th grade, 9th grade, and now in my Junior year. I have a lot of experience and it is fun to make web pages for causes.</p>
     </ul>
-</section>
+
+  </div>
+</div>
 
     <section>
-    <footer>
-      <p>Made by: Karan Modi</p>
-    </footer>
+      <footer class="footer">
+        <h1> My Email</h1>
+        <p><strong>kpmodi@my.waketech.edu</strong></p>
+    </footer> 
   </section>
   </body>
 
-  </html>
+</html>

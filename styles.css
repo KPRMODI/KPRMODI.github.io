@@ -1,12 +1,136 @@
+.container {
+  display: flex; /* for centering the name */
+  align-items: center;
+}
+
+.name{
+  color: #0B2A47;
+  font-family: 'Times New Roman';
+  font-size: xx-large;
+}
+
+.image{
+  display: inline-block;
+  border-radius: 75%;
+  width: 150px;
+}
 
 body{ 
-  background-color: #7CA98E;
+  background-color: #696C79;
     }
 
 h1{
-  color: #AEE9E3;
+  color: #97ACA0;
 }
 
 p{
-  color: #FC8774;
+  color: #0B2A47;
+  font-family: Arial, Helvetica, sans-serif;
 }
+.navbar{
+  background-color: #0B2A47;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+.navlink{
+display: inline-flex;
+  background-color: #97ACA0;
+  border-right: 1px solid;
+  margin: 10px;
+  padding: 10px; 
+  width: 32%;
+  justify-items: auto;
+  justify-content: center;
+}
+
+.navlink a{
+  font-size: 16px;
+  padding: 10px;
+}
+
+
+.column h1{
+  text-align: center;
+}
+
+ .column { 
+  float: left; 
+  padding: 10px; 
+  background-color: #EFEEEC; 
+  border-right: 1px solid;
+  margin: 0px;
+  height: 400px;
+ }
+
+.row:after{
+  content:"";
+  display: table;
+  clear:both;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column{
+    width:100%
+  }
+}
+
+.footer{
+  background-color: #EFEEEC; 
+  text-align: center;
+}
+
+.interest{
+  background-color: #EFEEEC;
+}
+
+.interestlist li{
+  color: #6193AC;
+  font-size: 20px;
+}
+
+.interestlist p{
+  color: #0B2A47;
+}
+
+.interest h1{
+  font-size: 50px;
+}
+
+
+.contact{
+  background-color: #EFEEEC;
+}
+
+.contact p{
+  color: #0B2A47;
+}
+
+.contact h1{
+  font-size: 40px;
+}
+
+/* Colors 
+LightShades: #EFEEEC;
+
+LightAccent: #97ACA0;
+
+MainBrandColor: #696C79;
+
+DarkAccent: #6193AC;
+
+DarkShades: #0B2A47;
