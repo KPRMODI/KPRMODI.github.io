@@ -1,4 +1,4 @@
-.container {
+.container2 {
   display: flex; /* for centering the name */
   align-items: center;
 }
@@ -20,7 +20,8 @@ body{
     }
 
 h1{
-  color: #97ACA0;
+  color: darkgreen;
+  font-size: 40px;
 }
 
 p{
@@ -28,65 +29,29 @@ p{
   font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
+  display: flex;
   background-color: #0B2A47;
   list-style-type: none;
   margin: 0;
   padding: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .navlink{
-display: inline-flex;
+  width:33%;
   background-color: #97ACA0;
   border-right: 1px solid;
   margin: 10px;
   padding: 10px; 
-  width: 32%;
   justify-items: auto;
-  justify-content: center;
+  justify-content: auto;
+  align-items: flex-end;
+  text-align: center;
 }
-
 .navlink a{
   font-size: 17px;
   padding: 10px;
-}
-
-
-.column h1{
-  text-align: center;
-}
-
- .column { 
-  float: left; 
-  padding: 10px; 
-  background-color: #EFEEEC; 
-  border-right: 1px solid;
-  margin: 0px;
-  height: 400px;
- }
-
-.row:after{
-  content:"";
-  display: table;
-  clear:both;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-.left, .right {
-  width: 25%;
-}
-
-.middle {
-  width: 50%;
-}
-
-@media screen and (max-width: 600px) {
-  .column{
-    width:100%
-  }
 }
 
 .footer{
@@ -95,7 +60,9 @@ display: inline-flex;
 }
 
 .interest{
+  display: flex;
   background-color: #EFEEEC;
+  flex-direction: column;
 }
 
 .interestlist li{
@@ -122,6 +89,87 @@ display: inline-flex;
 
 .contact h1{
   font-size: 40px;
+}
+
+.container{
+  display: flex;
+  background-color: #6193AC;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: top;
+  flex-grow: 1;
+}
+
+.box{
+    width: 25%;
+    background-color: #EFEEEC;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.a{
+  background-color: lightblue;
+}
+
+li{
+  color: #0B2A47;
+}
+
+b{
+  flex-grow: 1;
+}
+
+.form{
+  background-color: #0B2A47;
+}
+
+label{
+  color: #97ACA0;
+  font-size: 24px;
+}
+
+.active{
+  background-color: #6193AC;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .column {
+  width: 100%;
+  max-width: none;
+  }
+}
+
+.button{
+  padding: 10px 15px;
+}
+
+.button:hover{
+  background-color: #696C79;
+} 
+
+.text:hover{
+  color:red;
+}
+
+.input{
+  padding: 10px;
+  border-radius: 24px;
+}
+
+
+.input:focus{
+  padding: 15px;
+  border-color: #0B2A47;
 }
 
 /* Colors 
