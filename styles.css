@@ -1,0 +1,184 @@
+.container2 {
+  display: flex; /* for centering the name */
+  align-items: center;
+}
+
+.name{
+  color: #0B2A47;
+  font-family: 'Times New Roman';
+  font-size: xx-large;
+}
+
+.image{
+  display: inline-block;
+  border-radius: 75%;
+  width: 150px;
+}
+
+body{ 
+  background-color: #696C79;
+    }
+
+h1{
+  color: darkgreen;
+  font-size: 40px;
+}
+
+p{
+  color: #0B2A47;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+  display: flex;
+  background-color: #0B2A47;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlink{
+  width:20%;
+  background-color: #97ACA0;
+  border-right: 1px solid;
+  margin: 10px;
+  padding: 10px; 
+  justify-items: auto;
+  justify-content: auto;
+  align-items: flex-end;
+  text-align: center;
+}
+.navlink a{
+  font-size: 17px;
+  padding: 10px;
+}
+
+.footer{
+  background-color: #EFEEEC; 
+  text-align: center;
+}
+
+.interest{
+  display: flex;
+  background-color: #EFEEEC;
+  flex-direction: column;
+}
+
+.interestlist li{
+  color: #6193AC;
+  font-size: 20px;
+}
+
+.interestlist p{
+  color: #0B2A47;
+}
+
+.interest h1{
+  font-size: 50px;
+}
+
+
+.contact{
+  background-color: #EFEEEC;
+}
+
+.contact p{
+  color: #0B2A47;
+}
+
+.contact h1{
+  font-size: 40px;
+}
+
+.container{
+  display: flex;
+  background-color: #6193AC;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: top;
+  flex-grow: 1;
+}
+
+.box{
+    width: 25%;
+    background-color: #EFEEEC;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.a{
+  background-color: lightblue;
+}
+
+li{
+  color: #0B2A47;
+}
+
+b{
+  flex-grow: 1;
+}
+
+.form{
+  background-color: #0B2A47;
+}
+
+label{
+  color: #97ACA0;
+  font-size: 24px;
+}
+
+.active{
+  background-color: #6193AC;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .column {
+  width: 100%;
+  max-width: none;
+  }
+}
+
+.button{
+  padding: 10px 15px;
+}
+
+.button:hover{
+  background-color: #696C79;
+} 
+
+.text:hover{
+  color:red;
+}
+
+.input{
+  padding: 10px;
+  border-radius: 24px;
+}
+
+
+.input:focus{
+  padding: 15px;
+  border-color: #0B2A47;
+}
+
+/* Colors 
+LightShades: #EFEEEC;
+
+LightAccent: #97ACA0;
+
+MainBrandColor: #696C79;
+
+DarkAccent: #6193AC;
+
+DarkShades: #0B2A47;

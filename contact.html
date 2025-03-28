@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+        <div class="container2">
+            <img src="chess.png" class="image"> 
+              <header>
+                <h1>
+                  <strong class ="name">
+                    Karan Modi, Wake Early College Student
+                  </strong>
+                </h1>
+              </header>
+          </div>
+      <br>
+      <nav>
+        <ul class = "navbar">
+          <li class="navlink button"> <a href="index.html"><h3 class="text">Home </h3> </a> </li>
+          <li class="navlink button"> <a href="interests.html"><h3 class="text">My Interests</h3> </a> </li>
+          <li class="navlink active button "> <a href="contact.html"><h3 class="text">Contact Me!</h3> </a> </li>
+          <li class="navlink button "> <a href="hello.html"><h3 class="text">Guessing Game</h3> </a> </li>
+          <li class="navlink button "> <a href="tictactoe.html"><h3 class="text">TicTacToe</h3> </a> </li>
+        </ul>
+      </nav>
+      <section class="contact">
+    <h1>My Contact Info</h1>
+    <p> Wake Tech School Email: kpmodi@my.waketech.edu </p>
+    <p> Wake Early College School Email: kpmodi@students.wcpss.net </p>
+    <p> Personal Email: kpmodi28@gmail.com</p>
+      </section>
+
+
+<div class = "form">
+
+    <section class="form"> 
+    <form action = "submission.html" method = "POST">
+
+      <h1> Contact Me Personally </h1>
+      <section class = "Name">
+        <label for="name"> What is your name? </label>
+        <br>
+        <input class="input" type ="text" name="name" id="name" required>
+        <hr>
+      </section>
+
+
+  <section class = "Email">
+    <label for="email"> What is your email? </label>
+    <br>
+    <input class="input" type ="email"name="email"id="email" required>
+    <hr>
+  </section>
+
+  <section class = "PhoneNumber">
+    <label for="number"> What is your phone number? </label>
+    <br>
+    <input class="input" type ="tel"name="number"id="number"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    <hr>
+  </section>
+
+  <section class ="request">
+    <h1> What type of request do you have?</h1>
+
+    <input class="input" type="radio" name="request"id="question"value="question">
+    <label for="question">Question</label>
+
+    <br>
+
+    <input class="input" type="radio" name="request"id="commect"value="comment">
+    <label for="comment">Comment</label>
+
+    <br>
+
+    <input class="input" type="radio" name="request"id="suggestion"value="suggestion">
+    <label for="suggestion">Suggestion</label>
+
+    <hr>
+
+  </section>
+
+  <section class="extra-information">
+    <label for="extra">Anything else you want to ask?</label>
+    <br>
+    <textarea id="extra" name="extra" rows="6" cols="60" minlength="10"></textarea>
+  </section>
+  
+
+  <section class="submission">
+    <input type="submit" value="Submit" class="button text">
+  </section>
+    </form>
+  </div>
+
+</body>
+</html>
